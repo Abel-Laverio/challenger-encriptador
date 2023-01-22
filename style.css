@@ -11,10 +11,6 @@ header{
     color: #F3F5FC; 
 }
 
-.contenedor-logo{
-   display:inline-block; 
-}
-
 .Logo-Alura{
     float: left;
     margin-left: 60px;
@@ -76,7 +72,7 @@ footer{
     height: 70%;
     color: #0A3871;
     display: block;
-    margin-left: 100px;
+    margin-left: 150px;
    
    
 }
@@ -110,6 +106,7 @@ footer{
     text-align: center;
     justify-content: center;
     margin-top: 20px;
+    margin-left: 160px;
 }
 
 .botones p{
