@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 40px; 
+    background-image: linear-gradient(to left,#ffcae3,#ff499d,#ffcae3 );
+    text-align: center;
+    color: #F3F5FC; 
+}
+
+.contenedor-logo{
+   display:inline-block; 
+}
+
+.Logo-Alura{
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+    transition: 1s;
+}
+
+.Logo-Alura:hover{
+    transform: rotateX(360deg) translateX(80px);
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right,#e6f8fc,#00b7da );
+}
+
+section{
+    width: 40%;
+    height: 100%; 
+}
+
+.derecha{
+    justify-content: center;
+    width: 60%;
+    height: auto;
+}
+
+.izquierda{
+    justify-content: center;
+    width: 35%;
+    height: 100%;
+}
+
+
+footer{
+    width: 100%;
+    height: 40px;
+   /* background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);*/
+    background: linear-gradient(to left, #1CB5E0 , #000851 , #1CB5E0 );
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.texto-footer{
+    padding-top: 10px;
+    font-weight: 500;
+    
+}
+
+.cuadro-entrada{
+    width: 70%;
+    height: 70%;
+    color: #0A3871;
+    display: block;
+    margin-left: 100px;
+   
+   
+}
+
+.texto-entrada{
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    color: #0A3871;
+    font-size: 28px;
+    font-weight:450;
+    text-align: left;
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+    outline: none;
+    resize: none; 
+    margin-top: 70px;
+    text-transform: lowercase;
+}
+
+::placeholder{color: #0A3871;}
+
+
+.botones{
+    width: 70%;
+    height: 30%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botones p{
+    color: rgb(47, 72, 187);
+    font-size: 15px ;
+    font-weight: 600;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+.bto-enc{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: 3px solid rgba(100, 100, 100, 0.10);
+    border-radius: 10px;
+    height: 50px;
+    width: 40%;
+    cursor: pointer;
+    background-size: 300%;
+    background-image: linear-gradient(to left,#00B7DA,#161569,#00b7da );
+    transition: 1s;
+}
+
+
+.bto-des{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-size: 300%; 
+    border: 3px solid rgba(100, 100, 100, 0.10);;
+    border-radius: 15px;
+    height: 50px;
+    width: 40%;
+    margin: 0 20px;
+    cursor: pointer;
+    background-image: linear-gradient(to left,#a950a1,#2d3a54,#a950a1 );
+    transition: 1s;
+}
+
+.bto-des:hover{
+    background-position: right;
+    font-size: 20px;
+}
+.bto-enc:hover{
+    background-position: right;
+    font-size: 20px;
+}
+
+.bto-copiar{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0A3871;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 15px;
+    height: 40px;
+    width: 40%;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.cuadro-pantalla{
+    width: 65%;
+    height: 550px;
+    background: #FFFFFF;
+    /* shadow */
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.20);
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+.contenedor-muñeco{
+    width: 100%;
+    height: 100%;
+}
+
+.logo-muñeco{
+    width: 85%;
+    height: 220px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin: auto;
+    transition: 1s;
+}
+
+.logo-muñeco:hover{
+    transform: translateY(-30px) rotateY(360deg) ;
+}
+.contenedor-resultado{
+    width: 100%;
+    height: 85%;
+}
+
+.contenedor-copiar{
+    width: 100%;
+    
+}
+
+
+
+
+.cuadro-pantalla h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.ocultar{
+    display: none;
+}
+
+.texto-res{
+    font-size: 25px;
+    color: #0A3871;
+    margin-top: 40px;
+}
+
+
