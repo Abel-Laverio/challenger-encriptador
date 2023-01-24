@@ -144,10 +144,10 @@ footer{
     color: #fff;
     background-size: 300%; 
     border: 3px solid rgba(100, 100, 100, 0.10);;
-    border-radius: 15px;
+    border-radius: 10px;
     height: 50px;
     width: 40%;
-    margin: 0 20px;
+    /*margin: 0 20px;*/
     cursor: pointer;
     background-image: linear-gradient(to left,#a950a1,#2d3a54,#a950a1 );
     transition: 1s;
@@ -235,4 +235,60 @@ footer{
     margin-top: 40px;
 }
 
+@media screen and (max-width:480px){
+    header{
+        width: 100%;
+        height: auto;
+    }
 
+    main{
+        width: 100%;
+        display: block;
+    }
+
+    .derecha, .izquierda{
+        width: 100%;
+    }
+
+    .contedor-logo{
+        width: 100%;
+        height: auto;
+    }
+
+    .Logo-Alura{
+        float: none;
+        width: 7%;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .cuadro-entrada{
+        width: auto;
+        margin-left: 0px ;
+        text-align: center;
+    }
+
+    .texto-entrada{
+        width: 80%;
+        height: 250px;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .botones{
+        margin-left: 0px;
+        margin-top: 0px;
+        width: auto;
+    }
+
+    .izquierda{
+        height: 600px;
+    }
+
+    .cuadro-pantalla{
+        width: 85%;
+        height: 95%;
+        margin: 30px auto;
+    }
+
+}
